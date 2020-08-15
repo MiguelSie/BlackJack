@@ -476,7 +476,7 @@ public class Blackjack1 {
                     System.out.println("Empate");
                 }
             } else {
-                System.out.println("Perdiste");
+                System.out.println("Perdiste ");
             }
         }
 
