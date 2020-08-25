@@ -456,7 +456,7 @@ public class Blackjack1 {
                         }
                     }
                 }
-                //if (repetidos==false){c=c+1;}
+                // if (repetido==false){c=c+1};
                 c = c + 1;
                 repetido = false;
                 g = g + 1;
