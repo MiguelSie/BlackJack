@@ -67,15 +67,15 @@ public class Blackjack1 {
                     for (int h = 0; h <= g - 1; h++) {
                         if (repetidos[h] == i) {
                             repetido = true;
-                            /*if (repetido==true) {
-                                c=c-1;
-                    		}*/
+                            if (repetido == true) {
+                                c = c - 1;
+                            }
                         }
                     }
                     if (repetido == false) {
-                        //if (c==1){
-                        System.out.println("La carta numero " + c + " es: " + baraja[i]);
-                        //}
+                        if (c == 1) {
+                            System.out.println("La carta numero " + c + " es: " + baraja[i]);
+                        }
                         if (baraja[i].equals("A")) {
                             numA = numA + 1;
                             switch (numA) {
@@ -139,9 +139,9 @@ public class Blackjack1 {
                         }
                     }
                 } else {
-                    //if (c==1){
-                    System.out.println("La carta numero " + c + " es: " + baraja[i]);
-                    //}
+                    if (c == 1) {
+                        System.out.println("La carta numero " + c + " es: " + baraja[i]);
+                    }
                     if (baraja[i].equals("A")) {
                         numA = numA + 1;
                         switch (numA) {
@@ -456,8 +456,9 @@ public class Blackjack1 {
                         }
                     }
                 }
-                // if (repetido==false){c=c+1};
-                c = c + 1;
+                if (repetido == false) {
+                    c = c + 1;
+                };
                 repetido = false;
                 g = g + 1;
             }
