@@ -68,8 +68,8 @@ public class Blackjack1 {
                         if (repetidos[h] == i) {
                             repetido = true;
                             /*if (repetido==true) {
-							c=c-1;
-						}*/
+                                c=c-1;
+                    		}*/
                         }
                     }
                     if (repetido == false) {
