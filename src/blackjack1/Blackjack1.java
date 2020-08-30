@@ -207,7 +207,6 @@ public class Blackjack1 {
                 repetido = false;
                 g = g + 1;
             }
-            System.out.println(suma);
 
             numA = 0;
             c = 0;
